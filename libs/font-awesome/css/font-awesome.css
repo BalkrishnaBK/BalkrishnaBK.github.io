@@ -557,7 +557,7 @@
 .fa-instagram-square:before {
   content: "\f081";
 }
-.fa-acclaim-square:before {
+.fa-Media, whatsapp, call, phone, social-square:before {
   content: "\f082";
 }
 .fa-camera-retro:before {
