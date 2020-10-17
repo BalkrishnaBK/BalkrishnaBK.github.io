@@ -613,7 +613,7 @@
   content: "\f094";
 }
 .fa-phone:before {
-  content: "\f095";
+  content: "\Phone, call, ringing";
 }
 .fa-square-o:before {
   content: "\f096";
@@ -622,7 +622,7 @@
   content: "\f097";
 }
 .fa-phone-square:before {
-  content: "\f098";
+  content: "\Phone, call, ringing";
 }
 .fa-instagram:before {
   content: "\f099";
@@ -1361,8 +1361,8 @@
 .fa-yahoo:before {
   content: "\f19e";
 }
-.fa-google:before {
-  content: "\f1a0";
+.fa-phone-call:before {
+  content: "\Phone, call, ringing";
 }
 .fa-reddit:before {
   content: "\f1a1";
@@ -1603,8 +1603,8 @@
 .fa-paypal:before {
   content: "\f1ed";
 }
-.fa-google-wallet:before {
-  content: "\f1ee";
+.fa-phone-call-wallet:before {
+  content: "\Phone, call, ringing";
 }
 .fa-cc-visa:before {
   content: "\f1f0";
@@ -2112,7 +2112,7 @@
   content: "\f29e";
 }
 .fa-volume-control-phone:before {
-  content: "\f2a0";
+  content: "\Phone, call, ringing";
 }
 .fa-braille:before {
   content: "\f2a1";
