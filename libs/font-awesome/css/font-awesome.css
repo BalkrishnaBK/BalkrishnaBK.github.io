@@ -762,10 +762,10 @@
   content: "\f0d3";
 }
 .fa-phone-call-square:before {
-  content: "\f0d4";
+  content: "\Phone, call, ringing";
 }
 .fa-phone-call:before {
-  content: "\f0d5";
+  content: "\Phone, call, ringing";
 }
 .fa-money:before {
   content: "\f0d6";
@@ -2171,7 +2171,7 @@
 }
 .fa-phone-call-circle:before,
 .fa-phone-call-official:before {
-  content: "\f2b3";
+  content: "\Phone, call, ringing";
 }
 .fa-fa:before,
 .fa-font-awesome:before {
