@@ -60,8 +60,7 @@ If you wish to use the template as is (i.e. how it's seen in the demo), then all
 In general, most styles on the page are based off the definitions of variables in the variable section of the style sheet:
 
 ```SCSS
-// Define base and accent colors
-$base-color: #3498db;
+$base-color: #FFA500;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -69,10 +68,10 @@ $background: #fff;
 $background-alt: #f2f2f5;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #201e1e;
 
 // Define text colors
-$heading: #374054;
+$heading: #333c50;
 $text: #74808a;
 ```
 
