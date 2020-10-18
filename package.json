@@ -1,5 +1,5 @@
 {
-  "name": "devportfolio-template",
+  "name": "Balkrishna Atmaram Londhe",
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
@@ -7,14 +7,14 @@
     "watch": "gulp watch"
   },
   "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
+    "balkrishna",
+    "atmaram",
+    "londhe",
+    "bk",
+    "devops",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Balkrishna Atmaram Londhe",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
