@@ -1,95 +1,137 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+# Dev Portfolio
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Balkrishna Atmaram Londhe</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
+This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#honors">Honors & awards</a>
-            </li>
-            <li>
-                <a href="#publications">Publications</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#certificates">Certifications and Key Courses</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+To view a live demo, [click here](https://balkrishnabk.github.io/).
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Balkrishna Atmaram Londhe</h1>
-            <h2>DevOps Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
+Looking for a blog template? Checkout [DevBlog](https://balkrishnabk.github.io/).
 
-        <div id="lead-overlay"></div>
+## Features
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
+* Gulp ready (compiles Sass and minifies JS)
+* Sass ready with lots of commenting
+* Fully responsive
+* Comes with Bootstrap grid system
+* Easy colour changes can be done through simple variable edits
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am having 2+ years of experience as a Skilled DevOps engineer. Hands-on experience on managing micro Services using Docker and Kubernetes. Experienced with principles and best practices of Software Configuration Management in Agile, Waterfall methodologies. Also in using open Docker images and also build custom Docker images based on the application requirements. Managing containers using Orchestration tools like Kubernetes. Having a good understanding of Container Log and Management, Networking. Good Understanding of Docker file and its components, Written some of the Docker files for Developing Images. Good understanding of Kubernetes manager components like API Server, etc, Scheduler, Kubernetes Controller and Kubernetes Node components like Kube Proxy, POD, Kubelet,  Replication Groups, and POD Controller and Good understanding of Kubernetes Networks like Ingres and NodePort. Implemented CI/CD Process with Jenkins and UCD/Ansible to have automation of Continues Integration, Continues Delivery, and Continues Deployment. Involved in Configuring Different jobs like Freestyle and Pipeline Projects and Multi-Branch Project. Hands-on experience in Creating Distributed Environment using Master-Slave Architecture. Involved in Configuring Nexus Repository and JFrog  Repository for Managing Artifacts. Experienced in Creating and Managing HTTP and Container Servers like Nginx, HTTP Server, and Tomcat.
+## Contents
 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
+- [Setup and Configuration](#setup-and-configuration)
+    - [Making Edits / Customizing the Template](#making-edits--customizing-the-template)
+    - [Using the Template As Is](#using-the-template-as-is)
+- [Customization and Editing](#customization-and-editing)
+    - [General](#general)
+    - [Images](#images)
+    - [Header Section](#header-section)
+    - [Lead Section](#lead-section)
+    - [About Section](#about-section)
+    - [Experience Section](#experience-section)
+    - [Education Section](#education-section)
+    - [Honors & Awards Section](#honoirs-&-awards-section)
+    - [Publications Section](#publications-section)
+    - [Skills Section](#skills-section)
+    - [Certifications and Key Courses Section](#certifications-and-key-coourse-section)
+    - [Contact Section](#contact-section)
+    - [Footer Section](#footer-section)
+    - [Optional Sections](#optional-sections)
+- [Changelog](#changelog)
+- [License](#license)
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+## Setup and Configuration
+
+The setup required can be broken into two types:
+1. If you want to make edits or customize the template
+2. If you just want to add your information as use as is
+
+### Making Edits / Customizing the Template
+
+To setup, simply fork the repo and run `npm install` in order to get all the Gulp dev dependencies. Next, run `Gulp watch` to compile the Sass and minify the JavaScript. Alternatively, if you don't have Gulp installed globally, you can run the npm script `npm run watch`. Any changes done to the JavaScript (js/scripts.js) or Sass (sass/styles.scss) will be autocompiled and ready to go.
+
+All scripts are within `js/scripts.js` and get minified to `js/scripts.min.js`. All styles are in `sass/styles.scss` and get compiled to `css/styles.css`. Both the minified scripts file and compiled CSS file are what is loaded on the page by default.
+
+At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below  contains a quick breakdown of each of the default sections and how they work.
+
+### Using The Template As Is
+
+If you wish to use the template as is (i.e. how it's seen in the demo), then all that's required is the `css`, `images`, `js`, `libs` folders and the `index.html` file. You would then add your content to `index.html` as needed and you're good to go!
+
+## Customization and Editing
+
+### General
+
+In general, most styles on the page are based off the definitions of variables in the variable section of the style sheet:
+
+```SCSS
+$base-color: #FFA500;
+$base-color-hover: darken($base-color, 10%);
+
+// Define background colors
+$background: #fff;
+$background-alt: #f2f2f5;
+
+// Define border colors
+$border: #201e1e;
+
+// Define text colors
+$heading: #333c50;
+$text: #74808a;
+```
+
+If you wish to change the general colour scheme of the page for example, simply change the value of `$base-color`.
+
+There is also a number of default CSS classes that can be applied such as `.shadow`, `.shadow-large`, `.btn-rounded-white`, and various others. These can be found under the General Styles section in the style sheet.
+
+### Images
+
+By default, the template comes with a number of images, some of which can be kept and others which act simply as placeholders and should be switched. The template contains the following:
+
+* Main background (images/lead-bg.jpg) - this is the main background image provided via [Unsplash](https://unsplash.com/). This can be kept or changed easily by replacing `images/lead-bg.jpg` with your new background (recommended size of at least 1920x1080).
+* Favicon (/favicon.ico) - this is the favicon used for the page. Similar to the main bg, this can be kept or changed easily by replacing the `favicon.ico` with your new one.
+* Project image - these are the images associated with the projects under the project section. These are simply placeholders and should either be replaced or removed.
+
+### Header Section
+
+The header section can be found within the `<header>` tag and simply contains an unordered list of anchors to different sections of the page. If you add a new section and want to be able to quickly navigate to it from the top, simply add another list element with an anchor that has the href of the ID of the section. Conversely, if you remove a section, don't forget to remove the associated navigation element.
+
+If you wish to add a header link to an external page, simply add the class `no-scroll` to the anchor. For example:
+
+```HTML
+<li>
+    <a href="https://google.com" class="no-scroll">Google</a>
+</li>
+```
+
+If you wish to have a sticky (fixed) header, you simply need to add a class of `sticky` to the main header. For example, that would be accomplished as follows:
+
+```HTML
+<header class="sticky">
+    <!-- Header content -->
+</header>
+```
+
+### Lead Section
+
+The Lead section is pretty straightforward, it contains an h1 for your name and an h2 for your title. It also contains a link that can be used to link to your resume should you wish to add it as well.
+
+If you want your resume to automatically download when the button is clicked instead of opening up in another tab (the default behaviour), add the following code (Thanks to jkfran for the suggestion) in the lead:
+
+```HTML
+<a href="path/to/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
+```
+
+The href attribute points to where your resume is stored and the download attribute is what triggers the download / provides the name the file will be downloaded as when the user clicks the button (In this case, it will download as resume.pdf).
+
+### About Section
+
+The about section contains a quick about blurb that can be edited by changing the text within the paragraph tags.
+
+### Experience Section
+
+The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptation of [BalkrishnaBK/vertical-timeline](https://github.com/BalkrishnaBK/vertical-timeline).
+
+The default format is as follows:
+
+```HTML
         <div id="experience-timeline">
             <div data-date="April 2018 – till date">
                 <h3>IBM India Private Limited</h3>
@@ -156,11 +198,17 @@
                 </p>
             </div>
         </div>
-    </div>
-    <!-- End #experience -->
+```
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
+The data attribute `data-date` is what is used to add a date to the associated timeline point. All that is really required is a wrapping div (i.e. `#experience-timeline`) and nested divs to build the timeline. The h3, h4, and p tags are optional and the contents of the div can be styled however you wish.
+
+To add an additional section, simply add additional nested divs under the main wrapping div.
+
+### Education Section
+
+The Education is just a series of `.education-block` classes with some details associated with them. By default, it shows school name, date, degree, and some additional details. For example:
+
+```HTML
         <div class="education-block">
             <h3>Bachelor's of Computer Engineer</h3>
             <span class="education-date">2013-2017</span>
@@ -189,32 +237,15 @@
                 </ul>
             </p>
         </div>
-        <!-- End .education-block -->
+```
 
-        <div class="education-block">
-            <h3>HSC in Science</h3>
-            <span class="education-date">2012-2013</span>
-            <h4>Maharashtra State Board</h4>
-            <p>
-                Completed Higher Secondary studies with First Class.
-        </p>
-        </div>
-        <!-- End .education-block -->
+To add additional section, simply add additional `.education-block` elements.
 
-        <div class="education-block">
-            <h3>SSC</h3>
-            <span class="education-date">2010-2011</span>
-            <h4>Maharashtra State Board</h4>
-            <p>
-                Completed Secondary studies with Distinction.
-        </p>
-        </div>
-    </div>
-    <!-- End #education -->
+### Honors & Awards Section
 
+This section shows up my achievements and awards. An example is as follows:
 
-    <div id="honors" class="background-alt">
-        <h2 class="heading">Honors & Awards</h2>
+```HTML
         <div class="education-block">
             <h3>BEN's SUPERSTAR</h3>
             <span class="education-date">August 2020</span>
@@ -222,37 +253,17 @@
             <p>
                 Balkrishna ..Your are a BEN's SUPERSTAR ... Here is a small token of appreciation for all your contribution on Bendigo... You have been leading DevOps activites for OB team from Iteration 0. During migration to Interim AWS, you played a very critical role and extended working over several weekends ensuring a successful migration. The same was often appreciated by Geo team.
             </p>
-        </div>
-        <!-- End .honor-block -->
-
-        <div class="education-block">
-            <h3>Manager's Choice Award</h3>
-            <span class="education-date">November 2019</span>
-            <h4></h4>
-            <p>
-                Thanks for all the hard work that you are doing for Aus CDS asset development. You are adding great value to the project. Keep it up.
-            </p>
-        </div>
-        <!-- End .honor-block -->
-
-        <div class="education-block">
-            <h3>Manager's Choice Award for demonstrating the following IBM Practice: Restlessly reinvent -- our company and ourselves</h3>
-            <span class="education-date">April 2019</span>
-            <h4></h4>
-            <p>
-                We really appreciate all of your hard work and effort. There is much more to achieve in the coming months and we are looking forward to very active participation from you.
-
-                You did a wonderful job!!! Keep it up.
-            </p>
-        </div>
-        <!-- End .honor-block -->
-    </div>
+        </div> End .project-info -->
+</div>
+```
 
 
 
+#### Publications Section
 
-    <div id="publications">
-        <h2 class="heading">Publications</h2>
+This section shows up my publications:
+
+```HTML
         <div class="education-block">
             <h3>Transportation Porta</h3>
             <span class="education-date">2017</span>
@@ -264,28 +275,14 @@
                 03, 03, Balkrishna Londhe , Dr.Arati Dandwate, 2017, ISBN/ISSN: 2456-236X
             </p>
         </div>
-        <!-- End .publications-block -->
+```
 
-        <div class="education-block">
-            <h3>Survey on Transportation portal</h3>
-            <span class="education-date">Nov 2016</span>
-            <h4></h4>
-            <p>
-                Balkrishna Londhe , Dr.Arati Dandwate , Ashwini Parab , Kajal Gavhane , Tejaswini
-                Ingale: A Survey on Transportation portal, in: International Journal of Innovative
-                Research in Computer and Communication Engineering, Balkrishna Londhe , Dr.Arati
-                Dandwate, 2016, ISBN/ISSN: 2320-9801
-            </p>
-        </div>
-        <!-- End .publications-block -->
-    </div>
+### Skills Section
 
+The Skills section is simply an unordered list that spits out a "Skill Cloud" with all the skills listed. To add / remove skills, simply edit or add list elements, like so:
 
-
-
-    <div id="skills" class="background-alt">
-        <h2 class="heading">Skills</h2>
-        <ul>
+```HTML
+<ul>
             <li>Kubernetes</li>
             <li>Docker</li>
             <li>GitHub</li>
@@ -326,19 +323,16 @@
             <li>Tomcat</li>
             <li>HashiCorp Vault and Kubernetes Secrets</li>
             <li>Helm</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+</ul>
+```
 
 
-    <div id="certificates">
-        <h2 class="heading">Certifications and Key Courses</h2>
-        <div class="container">
-            <div class="row">
-                <div class="education-block">
-                    <h3>DevOps Certificates</h3>
-                    <p>
-                        <br><br>
+### Certifications and Key Courses Section
+
+This section shows up the Certifications and Key Courses:
+
+```HTML
+
                         <li>
                             Learn Devops The Complete Kubernetes Course
                         </li>
@@ -399,50 +393,13 @@
                         <li>
                             Just enough Ansible to be dangerous
                         </li>
-                    </p>
-                </div>
+```
 
-                <div class="education-block">
-                    <h3>Non-DevOps Certificates</h3>
-                    <p>
-                        <br><br>
-                        <li>
-                            Java Certification from KTI
-                        </li>
-                        <li>
-                            Advance Java Certification
-                        </li>
-                        <li>
-                            Workshop on Ethical Hacking and Computer Forensics
-                        </li>
-                        <li>
-                            MS-CIT
-                        </li>
-                        <li>
-                            C Language
-                        </li>
-                        <li>
-                            C++ Language
-                        </li>
-                        <li>
-                            Enterprise Design Thinking Practitioner
-                        </li>
-                        <li>
-                            Enterprise Design Thinking Co-Creator
-                        </li>
-                        <li>
-                            IBM Automation Essentials
-                        </li>
-                        <li>
-                            Cognitive Practitioner
-                        </li>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #publications -->
+### Contact Section
 
+Since the page is static, I opted to use the awesome Formspree to allow for a contact form without the need for anything else. To use it, you must have the page hosted on a server (loading a basic HTML page won't work) where a referrer header is generated. Also, simply add the email to the action. An example is as follows:
+
+```HTML
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
@@ -453,52 +410,64 @@
                 <button type="submit">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
+```
+For more information on configuration of the contact form or dealing with errors, check out [Formspree](https://formspree.io/).
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 Balkrishna Atmaram Londhe
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/BalkrishnaBK" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/919623325030" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/balkrishna-londhe-5335b088" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.youracclaim.com/users/balkrishna-londhe" target="_blank"><i class="fa fa-star-o" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/balkrishna_atmaram_londhe" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="tel:+919325877900" target="_blank"><i class="fa fa-mobile-phone" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
+For a quick tutorial about formspree, check out this [tutsplus tutorial](https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870) that covers different aspects and features of the form tool.
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
+### Footer Section
 
-</html>
+The Footer contains an optional copyright where you can place your name as well as an unordered list of all of your social or coding related profiles. By default it contains Github, Stack Overflow, acclaim, instagram, and Google Plus. You can add or remove them easily and simply use the Font Awesome icon associated with the social profile you wish to use. For a list of all icons, [click here](http://fontawesome.io/icons/).
+
+### Optional Sections
+
+The template comes with an optional section that can be added to the page markup to list things like Certifications, Hobbies, and more (Note: these are not included by default). The markup for the additional optional section is as follows:
+
+
+You can copy .optional-section-block for each new item you wish you have in the optional section. Also, the background-alt class may need to be removed depending on where the optional section is placed in your layout as this adds the grey background. If you play it at the bottom after "Skills", it can be used as is. Also, by default the border is applied at the top, but this can also be adjusted as needed.
+
+The optional section blocks have styling for h3 (the block title), h4, p, and ul tags by default.
+
+## Changelog
+
+### 1.2.2
+
+* Updated dependencies and gulpfile
+
+### 1.2.1
+
+* Updated dependencies and gulpfile
+* Added `no-image` optional class for projects without images (see above for usage)
+
+### 1.2.0
+
+* Added support for optional "Show More Projects" that hides some projects by default if included
+* Added optional sections to display certifications, languages, etc.
+
+### 1.1.3
+
+* Added default favicon to be used or changed
+* Added `sticky` class to make header fixed
+* Updated docs to add image section
+
+### 1.1.2
+
+* Added `no-scroll` class option to header navigation anchor if you want to link to external site
+* Changed contact form input / textarea colours to be based off `$base-color`
+* Changed main background to 100vh so it doesn't overflow if viewport height < 700px
+
+### 1.1.1
+
+* Made input placeholder text more readable
+* Removed timeline line when no JS
+* Added some basic styling to timeline when no JS
+
+### 1.1.0
+
+* Fixed menu toggle on mobile devices
+* Fixed z-index / scrolling issue with mobile menu
+* Mobile menu now closes once a nav element is hit
+
+## License
+
+Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
