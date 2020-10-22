@@ -27,11 +27,11 @@ Looking for a blog template? Checkout [DevBlog](https://balkrishnabk.github.io/)
     - [About Section](#about-section)
     - [Experience Section](#experience-section)
     - [Responsibilities Section](#responsibilities-section)
-    - [Education Section](#education-section)
     - [Honors & Awards Section](#honors--awards-section)
-    - [Publications Section](#publications-section)
     - [Skills Section](#skills-section)
-    - [Certifications and Key Courses Section](#certifications-and-key-courses-section)
+    - [Certifications and Key Courses Section](#certifications-and-key-courses-section)    
+    - [Education Section](#education-section)
+    - [Publications Section](#publications-section)
     - [Contact Section](#contact-section)
     - [Footer Section](#footer-section)
     - [Optional Sections](#optional-sections)
@@ -192,44 +192,6 @@ The data attribute `data-date` is what is used to add a date to the associated t
 
 To add an additional section, simply add additional nested divs under the main wrapping div.
 
-
-### Education Section
-
-The Education is just a series of `.education-block` classes with some details associated with them. By default, it shows school name, date, degree, and some additional details. For example:
-
-```HTML
-        <div class="education-block">
-            <h3>Bachelor's of Computer Engineer</h3>
-            <span class="education-date">2013-2017</span>
-            <h4>Savitribai Phule Pune University</h4>
-            <p>
-                Completed BE in Computer Engineering with Distinction.<br>                
-                ACADEMIC PROJECT<br>
-                Project title: Transportation Portal (BE 2016-17)<br>
-                Duration: June 2016 -April 2017<br>
-                Description: The Portal will provide transportation details to user and will keep data
-                stored in Centralized database. We are providing Web portal and Android application where in
-                Android application notification system is provided. Further in portal we are
-                implementing this by using software only so surely it will reduce coast of Project.
-                <ul>
-                    <li>
-                        Got Mr.Academics award in Engineering, Dhole Patil Of Engineering College
-                    </li>
-                    <li>
-                        Also was Technical Head of CESA(Computer Department Students Association) committee of Computer Department
-                    </li>
-                    <li>
-                        Was a member of college students committee
-                    </li>
-                    <li>Participated into Cultural event of Kshitij 2015 ,2016 and 2017, Drama in Kshitij 2015
-                        and 2016, Seed IT Idol</li>
-                </ul>
-            </p>
-        </div>
-```
-
-To add additional section, simply add additional `.education-block` elements.
-
 ### Honors & Awards Section
 
 This section shows up my achievements and awards. An example is as follows:
@@ -244,26 +206,6 @@ This section shows up my achievements and awards. An example is as follows:
             </p>
         </div> End .project-info -->
 </div>
-```
-
-
-
-#### Publications Section
-
-This section shows up my publications:
-
-```HTML
-        <div class="education-block">
-            <h3>Transportation Porta</h3>
-            <span class="education-date">2017</span>
-            <h4></h4>
-            <p>
-                Balkrishna Londhe , Dr.Arati Dandwate , Ashwini Parab , Kajal Gavhane ,
-                Tejaswini Ingale: Transportation Portal, in: INTERNATIONAL JOURNAL OF
-                INTERDISCIPLINARY INNOVATIVE RESEARCH AND DEVELOPMENT Vol. 01, Issue
-                03, 03, Balkrishna Londhe , Dr.Arati Dandwate, 2017, ISBN/ISSN: 2456-236X
-            </p>
-        </div>
 ```
 
 ### Skills Section
@@ -383,6 +325,67 @@ This section shows up the Certifications and Key Courses:
                             Just enough Ansible to be dangerous
                         </li>
 ```
+
+
+
+### Education Section
+
+The Education is just a series of `.education-block` classes with some details associated with them. By default, it shows school name, date, degree, and some additional details. For example:
+
+```HTML
+        <div class="education-block">
+            <h3>Bachelor's of Computer Engineer</h3>
+            <span class="education-date">2013-2017</span>
+            <h4>Savitribai Phule Pune University</h4>
+            <p>
+                Completed BE in Computer Engineering with Distinction.<br>                
+                ACADEMIC PROJECT<br>
+                Project title: Transportation Portal (BE 2016-17)<br>
+                Duration: June 2016 -April 2017<br>
+                Description: The Portal will provide transportation details to user and will keep data
+                stored in Centralized database. We are providing Web portal and Android application where in
+                Android application notification system is provided. Further in portal we are
+                implementing this by using software only so surely it will reduce coast of Project.
+                <ul>
+                    <li>
+                        Got Mr.Academics award in Engineering, Dhole Patil Of Engineering College
+                    </li>
+                    <li>
+                        Also was Technical Head of CESA(Computer Department Students Association) committee of Computer Department
+                    </li>
+                    <li>
+                        Was a member of college students committee
+                    </li>
+                    <li>Participated into Cultural event of Kshitij 2015 ,2016 and 2017, Drama in Kshitij 2015
+                        and 2016, Seed IT Idol</li>
+                </ul>
+            </p>
+        </div>
+```
+
+To add additional section, simply add additional `.education-block` elements.
+
+
+
+#### Publications Section
+
+This section shows up my publications:
+
+```HTML
+        <div class="education-block">
+            <h3>Transportation Porta</h3>
+            <span class="education-date">2017</span>
+            <h4></h4>
+            <p>
+                Balkrishna Londhe , Dr.Arati Dandwate , Ashwini Parab , Kajal Gavhane ,
+                Tejaswini Ingale: Transportation Portal, in: INTERNATIONAL JOURNAL OF
+                INTERDISCIPLINARY INNOVATIVE RESEARCH AND DEVELOPMENT Vol. 01, Issue
+                03, 03, Balkrishna Londhe , Dr.Arati Dandwate, 2017, ISBN/ISSN: 2456-236X
+            </p>
+        </div>
+```
+
+
 
 ### Contact Section
 
