@@ -26,6 +26,7 @@ Looking for a blog template? Checkout [DevBlog](https://balkrishnabk.github.io/)
     - [Lead Section](#lead-section)
     - [About Section](#about-section)
     - [Experience Section](#experience-section)
+    - [Responsibilities Section](#responsibilities-section)
     - [Education Section](#education-section)
     - [Honors & Awards Section](#honors--awards-section)
     - [Publications Section](#publications-section)
@@ -137,64 +138,7 @@ The default format is as follows:
                 <h3>IBM India Private Limited</h3>
                 <h4>DevOps Engineer</h4>
                 <p>
-                    As an DevOps Engineer, I worked on the automation of CI/CD scripts using dev tools. I am working with multiple clients. Responsible for design and implementation of end to end automated delivery for multiple applications. Also, I am a part of the open banking, Digital Platform, and DevOps team in the Bendigo project. I am responsible for managing Dev tools and managing deployments. I worked on different tools. I worked on multiple Deployment and Integration tools. As well I worked on multiple Image repositories and Binary management tools. My primary work is to manage deployments. I am working on GitLab for Source Code Management and the same we are using as Integration and deployment tools as well but initially, we used to have GitHub as SCM and Jenkins as Integration tool and Ansible as Deployment tool. For the Image registry now we are using Jfrog but initially, we used to have IBM cloud Image Registry. In this project, I am responsible for the installation of Integration tools like Jenkins, Deployment tools like Ansible, and management of them. In this project, I deployed code on IBM Cloud Kubernetes Service platforms and now deploying on Amazon Web Services platform. I was responsible for the installation of Integration tools like Jenkins, Deployment tools like Urban Code Deploy, and Ansible. Also, the Image repository setup is done by me like JFrog and Nexus. For source code management we used Github. Even my role was to set up deployment environments like Kubernetes cluster and docker environment. Even I did deployment on single standalone VM's as well. I did the setup of ELK, Grafana, Prometheus, Zipkin, vault, and JIRA also management was with me for all this. 
-                    <li>Automation CI/CD pipeline using Jenkins and Ansible</li>
-                    <li>Responsible for design and implement end to end automated delivery for multiple
-                        applications</li>
-                    <li>Used GitHub and GitLab as Version Control Tools</li>
-                    <li>Used GitLab and Jenkins as Continues Integration Tools</li>
-                    <li>Used GitLab and Ansible for Continues Deployment Tools</li>
-                    <li>Responsible for design and implement end to end automated delivery for multiple
-                        applications</li>
-                    <li>Worked on the installation of image repositories like Nexus3 and jFrog</li>
-                    <li>Worked on installation on artifactory like Nexus2 and jFrog</li>
-                    <li>Created automation CI/CD pipeline using Jenkins, Ansible and IBM UCD</li>
-                    <li>Deployment of application and Management of Amazon Web Services Cloud and IBM
-                        Kubernetes Service</li>
-                    <li>Istio configuration and routing services using the gateway and VirtualService
-                    </li>
-                    <li>Deployment of SonarQube for static code analysis and code coverage</li>
-                    <li>Use of IBM cloud Container Registry as a Docker Repository</li>
-                    <li>Worked on Kafka event messaging system to perform deployment on AWS target
-                        server</li>
-                    <li>Worked on Service Mesh (istio) to perform deployment for Apic, Istio microservices</li>
-                    <li>Used docker containers in Kubernetes cluster for their application workload (Helm) and
-                        AWS</li>
-                    <li>Worked on migration activity from Github to Gitlab SAAS to move the microservices
-                        and then refactor them to migrate to GitLab SAAS</li>
-                    <li>The Canonical microservices were deployed using GitLab Auto-DevOps pipeline and
-                        create docker images were planned to store in common jFrog artifactory and it will be
-                        deployed in the Kubernetes cluster as a part of deployment via the YAML</li>
-                    <li>Developed container and YAML to deploy the monitoring solution in Kubernetes cluster
-                        on to workload of Helm Chart</li>
-                    <li>Worked in Newman tool for testing automation</li>
-                    <li>Worked on Different environments like development, test and System Integration test
-                        and etc</li>
-                    <li>I was responsible for the installation of the master-slave installation of Kubernetes
-                        Clusters</li>
-                    <li>Wrote shell scripts for one-click installation of Kubernetes master and slaves and it's
-                        required applications</li>
-                    <li>I wrote spring boot application to create and run Continuous Integration activities on
-                        Jenkins</li>
-                    <li>I wrote spring boot application to create and run Continuous Deployment activities on
-                        Urban Code Development and Ansible
-                        </li>
-                    <li>Made Shell scripts to automate the installation of Kubernetes master and node also
-                        Docker setup on Vanilla VM in one script using one command also Automation Scripts
-                        for adding dynamic Prometheus target, dynamic creation of Grafana dashboard,
-                        dynamic port allocation, dynamic virtual server entry
-                        </li>
-                    <li>Created System metric Dashboard on Grafana for 50+ VMs Working Knowledge on
-                        monitoring tool – Grafana, Prometheus and plays a role in Linux Administration</li>
-                    <li>I set up Monitoring tools like Prometheus and Grafana on the virtual machine</li>
-                    <li>Worked on installation and management of Static code analysis tool like SonarQube</li>
-                    <li>Worked on installation and management of logging tools like ElasticSearch, Logstash
-                        and Kibana</li>
-                    <li>Worked on the deployment of tools like Kafdrop using docker-compose and helm chart
-                        for monitoring of kafka topics and logs</li>
-                    <li>Worked on deployment and management of tools like Configserver, Eureka and
-                        HystrixDashboard
-                        </li>
+                    As an DevOps Engineer, I worked on the automation of CI/CD scripts using dev tools. I am working with multiple clients. Responsible for design and implementation of end to end automated delivery for multiple applications. Also, I am a part of the open banking, Digital Platform, and DevOps team in the Bendigo project. I am responsible for managing Dev tools and managing deployments. I worked on different tools. I worked on multiple Deployment and Integration tools. As well I worked on multiple Image repositories and Binary management tools. My primary work is to manage deployments. I am working on GitLab for Source Code Management and the same we are using as Integration and deployment tools as well but initially, we used to have GitHub as SCM and Jenkins as Integration tool and Ansible as Deployment tool. For the Image registry now we are using Jfrog but initially, we used to have IBM cloud Image Registry. In this project, I am responsible for the installation of Integration tools like Jenkins, Deployment tools like Ansible, and management of them. In this project, I deployed code on IBM Cloud Kubernetes Service platforms and now deploying on Amazon Web Services platform. I was responsible for the installation of Integration tools like Jenkins, Deployment tools like Urban Code Deploy, and Ansible. Also, the Image repository setup is done by me like JFrog and Nexus. For source code management we used Github. Even my role was to set up deployment environments like Kubernetes cluster and docker environment. Even I did deployment on single standalone VM's as well. I did the setup of ELK, Grafana, Prometheus, Zipkin, vault, and JIRA also management was with me for all this.
                 </p>
             </div>
         </div>
@@ -203,6 +147,51 @@ The default format is as follows:
 The data attribute `data-date` is what is used to add a date to the associated timeline point. All that is really required is a wrapping div (i.e. `#experience-timeline`) and nested divs to build the timeline. The h3, h4, and p tags are optional and the contents of the div can be styled however you wish.
 
 To add an additional section, simply add additional nested divs under the main wrapping div.
+
+### Responsibilities Section
+
+This section includes responsiblities I need to perform as DevOps Engineer. Even I am working as Deployment Manager for few weeks. [BalkrishnaBK/vertical-timeline](https://github.com/BalkrishnaBK/vertical-timeline).
+
+The default format is as follows:
+
+```HTML
+    <div id="responsibilities">
+        <h2 class="heading">Job Responsibilities</h2>
+        <div class="education-block">
+            <h3>Hands on expertise</h3>
+            <p>
+                <li>
+                    Kubernetes Installation and Deployments
+                </li>
+                <li>
+                    Helm chart creation and deployment
+                </li>
+                <li>
+                    Dockerfiles and Docker-compose files
+                </li>
+                <li>
+                    IBM Kubernetes Service                    
+                </li>
+                <li>
+                    Docker Container Registry
+                </li>
+                <li>
+                    Setting simple rules to deny sites & downloads                    
+                </li>
+                <li>
+                    Monitoring users’ activities & reporting to superiors
+                </li>
+                <li>
+                    IBM Cloud Private
+                </li>
+            </p>
+        </div>
+```
+
+The data attribute `data-date` is what is used to add a date to the associated timeline point. All that is really required is a wrapping div (i.e. `#responsiblities-timeline`) and nested divs to build the timeline. The h3, h4, and p tags are optional and the contents of the div can be styled however you wish.
+
+To add an additional section, simply add additional nested divs under the main wrapping div.
+
 
 ### Education Section
 
